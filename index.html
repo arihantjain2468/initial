@@ -19,7 +19,10 @@
 
     <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
           <div class="container">
-              <a class="navbar-brand mr-auto" href="#">restorante con fusion</a>
+              <a class="navbar-brand mr-auto" href="#">
+                  <!-- restorante con fusion-->
+                  <img src="logo.png" height="30" width="41">
+                </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
                      <span class="navbar-toggler-icon"></span>
                 </button> 
@@ -27,7 +30,7 @@
                     <ul class="navbar-nav mr-auto">
                         <li class="navitem active"><a class="nav-link" href="#" ><span class="fa fa-home fa-lg"></span> Home </a></li>
                         <li class="navitem"><a class="nav-link" href="#" ><span class="fa fa-list fa-lg"></span> Menu </a></li>
-                        <li class="navitem"><a class="nav-link" href="#" ><span class="fa fa-address-card fa-lg"></span> contact </a></li>
+                        <li class="navitem"><a class="nav-link" href="contactus.html" ><span class="fa fa-address-card fa-lg"></span> contact </a></li>
                         <li class="navitem"><a class="nav-link" href="#" ><span class="fa fa-info fa-lg"></span> About </a></li>
                     </ul>
                 </div>    
@@ -40,7 +43,8 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm align-self-center">
+                    <img src="logo.png" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -52,8 +56,13 @@
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
             <div class="col col-sm col-sm-md order-sm-first">
-                <h2>Uthappizza</h2>
+               <div class="media">
+                <img class="d-flex mr-3 img-thumbnail align-self-center" src="uthappizza.png" alt="uthapizza">
+                <div class="media-body">
+                <h2 class="mt-0">Uthappizza</h2>
                 <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+               </div>            
+               </div>
             </div>
         </div>
 
@@ -72,16 +81,63 @@
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
-            <div class="col col-sm col-sm-md">
-                <h2>Alberto Somayya</h2>
-                <ol class="col-12 breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">home</a></li>
-                    <li class="breadcrumb-item active">About us</li>
-
-                </ol>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+            <div class="col col-sm order-sm-first col-sm-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="alberto.png" alt="alberto">
+                    <div class="media-body">
+                      <h2 class="mt-0">Alberto Somayya</h2>
+                      <ol class="col-12 breadcrumb">
+                         <li class="breadcrumb-item"><a href="#">home</a></li>
+                         <li class="breadcrumb-item active">About us</li>
+                      </ol>
+                      <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                    </div>
+                </div> 
             </div>
         </div>
+        <div class="row row-content">
+            <div class="col-12 col-sm-9">
+                  <h2>Facts &amp; Figures</h2>
+                  <div class="table-responsive">
+                      <table class="table table-striped">
+                          <thead class="thead-dark">
+                              <tr>
+                                  <th>&nbsp; </th>
+                                  <th>2013</th>
+                                  <th>2014</th>
+                                  <th>2015</th>
+                             </tr>                    
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <th>Employees</th>
+                                  <td>15</td>
+                                  <td>16</td>
+                                  <td>24</td>
+                              </tr>
+                              <tr>
+                                 <th>sadddc</th>
+                                 <td>15</td>
+                                 <td>16</td>
+                                 <td>24</td>
+                             </tr><tr>
+                                 <th>Employees</th>
+                                 <td>15</td>
+                                 <td>16</td>
+                                 <td>24</td>
+                             </tr><tr>
+                                 <th>Employees</th>
+                                 <td>15</td>
+                                 <td>16</td>
+                                 <td>24</td>
+                             </tr>
+                          </tbody>
+
+                      </table>
+                  </div>
+            </div>
+        </div>
+
     </div>
 
     <footer class="footer">
@@ -123,7 +179,9 @@
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
            </div>
-        </div>
+    
+                   </div>
+        
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
