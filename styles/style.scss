@@ -1,9 +1,9 @@
-@lt-gray: #ddd;
-@bacground-dark: #512DA8;
-@background-light: #9575CD;
-@background-pale: #D1C4E9;
+$lt-gray: #ddd;
+$bacground-dark: #512DA8;
+$background-light: #9575CD;
+$background-pale: #D1C4E9;
 
-@carousel-item-height: 300px;
+$carousel-item-height: 300px;
 
 @mixin zero-margin($pad-up-dn,$pad-left-right){
    margin: 0px auto;
@@ -62,4 +62,17 @@ body{
     right: 0px;
     bottom: 0px;
     position: absolute;
+}
+.modal-header{
+    background-color: $bacground-dark;
+    color: white;
+    .close{
+        color: floralWhite;
+    }
+}
+.modal-body{
+    background-color: $background-pale;
+}
+#option1{
+    display: none;
 }
